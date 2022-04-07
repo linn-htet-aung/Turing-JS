@@ -1,0 +1,14 @@
+Variable Declaration
+    - var (function scope, hositing, redefinable)
+    - let (block scope, no hoisting, no redefinable)
+    - const (block scope, no hoisting, no redefinable, constant)
+    
+==========================================================================================================
+Variable Scope
+    - Function Scope (let == var)
+        - Global Variable
+        - Local Variable
+
+    - Block Scope (let !== var)
+
+==========================================================================================================
