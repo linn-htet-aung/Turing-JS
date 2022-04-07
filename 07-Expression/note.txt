@@ -1,0 +1,52 @@
+Expression
+    - return any value
+    - partial meaning
+
+==========================================================================================================
+Expression VS Statements
+    Expression
+        -> Simply says expression return a values.
+    Statement
+        -> The sequence of actions that should be performed to get a desired results is called statements.
+
+==========================================================================================================
+Pirmary Expression
+    - expression that doesn't contains operator is known as primary expression.
+        => literal
+        => language keywords
+        => variable reference 
+    (When an identifier appears itself in a program, JS assume it is a varialbe or constant or property
+    of an Global Object and looks up its value. If no variable with that name exist, attempt to evaluate
+    a nonexistant variable throws a ReferenceError instead.)
+
+==========================================================================================================
+Array and Object Initializer
+    - Called array literal and object literal.
+
+    - An array initializer is a comma-separated list of expression contained within square brackets.
+    - The value of array initializer is a newly created array.
+    
+    - Object initializer expression are like array initializer expression, but the square brackets are 
+    are replaced by curly brackets, and each subexpression is prefixed with a property name and colon.
+
+==========================================================================================================
+Function Definition Expression
+    - A function definition expression defines a JavaScript Function.
+    - The value of expression is newly defined function.
+
+==========================================================================================================
+Property Access Expression
+    - A property access experssion evaluates to the value of an object property or an array element.
+
+==========================================================================================================
+Invocation Expression
+    - An invocation expression is a JavaScript's syntax for calling a function or method.
+
+==========================================================================================================
+Object Creation Expression
+    - An object creation expression creates a new object and invokes a constructor function to initialize
+    the properties of this object.
+    - Object creation expression are like invocation expression except that they are prefixed with keywords
+    (new)
+
+==========================================================================================================
