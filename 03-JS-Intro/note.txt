@@ -1,0 +1,15 @@
+JavaScript Application Usage Area?
+    - Client (Web Browser)
+    - Server (Node)
+    - Hybrid Mobile App (React Native)
+    - Desktop App (Electron with Typescript)
+
+==========================================================================================================
+JavaScript?
+    - Dynamic Type (Mostly can assign any datatype to variable)
+    - Scripting Language (Need Host to execute)
+
+==========================================================================================================
+TypeScript?
+    - Super sup of JavaScript
+    - npm install tyepscript --save-dev
