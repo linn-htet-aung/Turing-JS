@@ -1,0 +1,53 @@
+Boot Process
+    - Power On -> BIOS -> POST -> Boot Sequence -> Load OS
+
+==========================================================================================================
+Platform
+    - Operating System + Hardware
+
+==========================================================================================================
+Compiler 
+    - Transform High Level Programming Language into Low Level Intermediate representation or Native Executable.
+    - Mainly used for static type programming language such as C++.
+    - (Source Code) -> (Native Code) => Run On Platform
+
+==========================================================================================================
+Interpreter
+    - No Intermediate Code
+    - Mainly used for dynamic type programming language such as JavaScript, Python, PHP, Ruby, Lua,...
+    - Modern programming language does not directly execute programming statement.
+    - Each programming statement is transformed by frontend compilation process into a series of bytecode and 
+    executed by bytecode interpreter or virtual machine.
+
+==========================================================================================================
+Virtual Machine
+    - Hybrid approch to language implementation
+    - Instead of generating platform dependent native code, they just generate bytecode for virtual machine.
+    - Bytecode can run on Virtual Machine implemented in software or hardware.
+    - By using Virtual Machine based approch, building platform independent language is much more easier.
+    - (Source Code) -> (Byte Code) => Run On VM
+
+==========================================================================================================
+Transpiler
+    - Known as source code to source code Compiler
+
+==========================================================================================================
+JIT Compiler
+    - Just in time compilation - compile the bytecode into native code when program is running
+
+==========================================================================================================
+AOT Compiler
+    - Ahead of time compilation - before execution of the program, all bytecode are compiled to native code.
+
+==========================================================================================================
+Compilation Process
+    - Compiler frontend (Lexical Analysis, Syntax Analysis, Sematic Analysis) to generate AST
+    - Compiler backend (Intermediate Code Generator, Code optimizer, Code Generator) to generate bytecode
+
+==========================================================================================================
+Stack based Virtual Machine
+    - fast in - last out
+
+==========================================================================================================
+Register based Virtual Machine
+
