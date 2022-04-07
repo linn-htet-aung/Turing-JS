@@ -1,0 +1,26 @@
+Literals?
+    A literal is a data value that appears directly in a program.
+        - Number Literal (1)
+        - String Literal ("Hello World")
+        - Boolean Literal (false)
+        - Object Literal ({name: "Alice", age: 23}) ..... and so on.
+
+    literal     => The value itself.
+    variable    => A name that can represents the different value during the execution of a program.
+
+    x = 3 (x is variable, 3 is number literal)
+==========================================================================================================
+Unicode?
+    - Unicode is a standard for encoding computer text in most of the internationally used writing system into bytes.
+
+==========================================================================================================
+Unicode Normaliztion?
+    - Unicode allows more than one way of encoding the same character
+    - Eg: caf\u{e9} and cafe\u{301}
+    - Above two encoding typically same as when display in text editor, but they are different in binary encoding.
+    - So, They are conisder as different in JS.
+
+==========================================================================================================
+Unicode Escaping?
+    - Unicode escaping needed when some computer hardware and software can't display, input or process the full set of unicode character.
+    - Unicode escaping begins with \u character and either followed by exactly four hex digits OR (1 to 6) hex digits enclosed within curly braces.
