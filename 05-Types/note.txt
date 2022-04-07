@@ -1,0 +1,87 @@
+Type?
+    - Abstration that given from programming language.
+
+Type Theory?
+    - Set of Possible Value
+    - Operation on that Value
+
+JS Datatypes
+    - Primitive Types   (boolean, number, string, null, undefined, symbol)
+    - Compound Types    (array, object, functions)
+
+Mutable & Immutable
+    - Primitive Types   (Immutable) -> Value Model
+    - Compound Type     (Mutable)   -> Reference Model
+
+Type Coversion
+    - Explicit Conversion -> Programmer ByForce Convert
+    - Implicit Conversion -> Compliler Autocovert
+
+==========================================================================================================
+Number
+    - Number is used to represents integers and to approximate real numbers.
+    - JS represents number using 64-bits floating point format defined by IEE754 standard.
+    - When a number directly appear in a program, it is known as numeric literal.
+    - JS supports numeric literal in several formats.
+
+Overflow?
+    - Numeric operation is larger than the representative number.
+
+Underflow?
+    - Numeric operation is closer to zero than the smallest representative number.
+
+JS Overflow & Underflow Error
+    - Arithmetic in JavaScript doesn't raise error in case of overflow and underflow and division by zero.
+
+Representing floating points in binary
+    IEE754 floating points representation
+    - Sign Bit
+    - Exponent
+    - Mantisa
+
+==========================================================================================================
+String
+    - A string is a immutable ordered sequence of 16 bits values.
+    - Typically represents a Unicode Character (Simply can say one to four bytes)
+    - JS uses UTF-16 encoding of the Unicode character set
+    - Unicode character whose codepoints do not fit in 16 bits are encoded two 16-bits values.
+
+==========================================================================================================
+Boolean
+    - Boolean value represents truth or falsehood, on or off, yes or no.
+    - Boolean value are generally the result of comparison operation.
+
+Truth & Falsy ?
+    - Falsy value are zero, false, null, undefined, NaN, empty string, other than that are true.
+
+==========================================================================================================
+Null
+    - null is a special keyword that is usually used to indicate the absence of value.
+    - Using the typeof operator on null returns the "object".
+
+==========================================================================================================
+Undefined
+    - The undefined value represents a deeper kind of absence.
+    - It is the value of variable that doesn't been initialized.
+    - Also the value you get when query the value of object property or array element that doesn't exist.
+
+==========================================================================================================
+Object
+    - 
+
+The Global Object?
+    - When JS interpreter start, it creates a new global object and gives it an initial set of properties.
+    - Browser  => window
+    - Node     => global
+    - Global Constants like (undefined, Infinity, NaN)
+    - Global Functions like (isNaN(), parseInt(), eval())
+    - Constructor Functions like (Date(), RegExp(), String(), Object(), Array())
+    - Global Object like (Math, JSON)
+
+==========================================================================================================
+Array
+
+==========================================================================================================
+Functions
+
+
