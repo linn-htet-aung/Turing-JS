@@ -1,0 +1,70 @@
+Operator
+    - Most of the operator are represented by punctuation character
+    - Some are represented by keywords (typeof, instanceof, delete)
+
+==========================================================================================================
+Number of Operands
+    - Binary Operator
+    - Unary Operator
+    - Tanary Operator
+
+==========================================================================================================
+Operator Precedence
+    - P E M D A S
+
+==========================================================================================================
+Operator Associativity
+    - R (Right 2 Left)
+    - L (Left 2 Right)
+
+==========================================================================================================
+Operator Side Effects
+    - The operator that can able to change operands value has side effects.
+        -> Assignment Operator
+        -> Increment & Decrement Operator
+        -> delete operator
+
+==========================================================================================================
+Order of Evaluation
+    - Operator Precedence & Associativity specify the order of evaluation.
+
+==========================================================================================================
+1. Arithmetic Operator
+    1. Mathematical Operator
+        - Add Operator
+        - Substract Operator
+        - Multiply Operator
+        - Division Operator
+        - Modulo Operator
+    2. Unary Arithmetic Operator
+        - Unary Plus
+        - Unary Minus
+        - Increment Operator
+        - Decrement Operator
+    3. The Plus Operator
+    4. Bitwise Operator
+
+==========================================================================================================
+2. Comparison Operator
+    1. Equality
+    2. Comparison
+
+==========================================================================================================
+3. Assignment Operator
+    1. Single Assignment
+    2. Compound Assignment
+
+==========================================================================================================
+4. Logical Operator
+
+
+==========================================================================================================
+4. Miscallaneours Operator
+    1. The Condinational Operator (Tenary Operator)
+    2. First Defined Operator
+    3. The typeof Operator
+    4. The delete Operator
+    5. The void Operator
+    6. The Comma Operator
+
+==========================================================================================================
