@@ -1,0 +1,34 @@
+Expression VS Statements
+    Expression
+        -> An expression is a block of code that evaluates to a value.
+    Statement
+        -> A statement is a block of code that is preforming some action.
+
+==========================================================================================================
+Compound & Empty Statement
+    - Compound Statement (More than one statement) 
+    - Empty Statement
+
+==========================================================================================================
+1. Expression Statement
+
+==========================================================================================================
+2. Conditional Statement
+    1. if statement
+    2. if else statement
+    3. if else if statement
+    4. switch statement
+
+==========================================================================================================
+3. Loop Statement
+    1. while Loop (depend on condition)
+    2. do while Loop (depend on condition)
+    3. for loop (depend on counter)
+    4. for/of loop (usually work with iterable value)
+    5. for/in loop
+==========================================================================================================
+4. Jump Statement
+    1. break statement
+    2. 
+
+==========================================================================================================
