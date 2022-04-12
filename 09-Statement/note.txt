@@ -28,7 +28,16 @@ Compound & Empty Statement
     5. for/in loop
 ==========================================================================================================
 4. Jump Statement
-    1. break statement
-    2. 
+    1. label statement (Any statement may be labeled by preceding it with an identifier and a colon:)
+    2. break statement
+    3. continue statement
+    4. return statement
+    5. throw statement
+    6. try, catch, finally
 
 ==========================================================================================================
+5. Miscellaneous Statement
+    1. with Statement (shouldn't use)
+    2. debugger Statement (shouldn't use)
+    3. "use strict" Statement (strict mode eg: can't use variable without declare)
+    

@@ -1,0 +1,21 @@
+Object
+
+==========================================================================================================
+Prototypes
+    - prototype = parent (Object)
+    - Every JS object has a second JS Object associated with it, known as prototype.
+    - The first object inherits properties and method from the seconde object.
+
+==========================================================================================================
+Creating Objects
+    1. Object Literal Style
+    2. Java Style with new Keyword
+    3. Object.create() Method
+
+==========================================================================================================
+Querying Properties
+    1. with dot opertor
+    2. with square bracket (dynamically invoke)
+    3. with hierarchical ways
+
+==========================================================================================================
