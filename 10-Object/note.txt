@@ -7,15 +7,59 @@ Prototypes
     - The first object inherits properties and method from the seconde object.
 
 ==========================================================================================================
+Inheritance
+    - properties
+    - method
+
+==========================================================================================================
 Creating Objects
     1. Object Literal Style
     2. Java Style with new Keyword
     3. Object.create() Method
 
 ==========================================================================================================
-Querying Properties
+Extending Objects
+    1. 
+    2. 
+    3. 
+
+==========================================================================================================
+Serializing Objects
+    1. 
+    2. 
+    3. 
+
+==========================================================================================================
+Read Properties
     1. with dot opertor
     2. with square bracket (dynamically invoke)
     3. with hierarchical ways
+
+==========================================================================================================
+Write Properties
+    1. with dot opertor
+    2. with square bracket
+
+==========================================================================================================
+Delete Properties
+    1. delete Operator
+
+==========================================================================================================
+Testing Properties
+    1. in Operator
+    2. hasOwnProperty()
+    3. propertyIsEnumerable()
+
+==========================================================================================================
+Enumerating Properties
+    1. for in Loop
+    2. Object.keys() Method
+
+==========================================================================================================
+Object Methods
+    1. toString() Method
+    2. toLocalString() Method
+    3. valueOf() Method
+    4. toJSON() Method
 
 ==========================================================================================================
