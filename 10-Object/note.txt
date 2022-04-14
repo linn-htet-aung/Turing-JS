@@ -12,6 +12,9 @@ Inheritance
     - method
 
 ==========================================================================================================
+Extended Object Literal Syntax (ES6)
+
+==========================================================================================================
 Creating Objects
     1. Object Literal Style
     2. Java Style with new Keyword
@@ -19,15 +22,13 @@ Creating Objects
 
 ==========================================================================================================
 Extending Objects
-    1. 
-    2. 
-    3. 
+    1. with for of Loop (overwrite the same properties)
+    2. Object.assign() Method
 
 ==========================================================================================================
 Serializing Objects
-    1. 
-    2. 
-    3. 
+    1. JSON.strigify()  [ Object to String ]
+    2. JSON.parse()     [ String to Object ]
 
 ==========================================================================================================
 Read Properties
@@ -54,12 +55,14 @@ Testing Properties
 Enumerating Properties
     1. for in Loop
     2. Object.keys() Method
+    3. Object.getOwnPropertyNames() Method
+    4. Object.getOwnPropetySymbol() Method
+    5. Reflect.ownKeys() Method
 
 ==========================================================================================================
 Object Methods
     1. toString() Method
-    2. toLocalString() Method
-    3. valueOf() Method
-    4. toJSON() Method
+    2. valueOf() Method
+    3. toJSON() Method
 
 ==========================================================================================================
