@@ -1,0 +1,52 @@
+Array
+    - An array is a ordered collection of values.
+    - Each value is called and element.
+    - Element has numeric position in the array, known as index.
+    - An element my object or other array
+    - JS array are zero based, dynamic, grow or shrink as needed, no need to declare a fixed size
+    - Array inherit properties from Array.prototype, which define a rich set of manipulation method
+
+    - Homogenous Array   (Same kind of element)
+    - Hetrogenous Array  (Different kind of element)
+
+    - Sparse Array (A sparse array is one in which elements do not have continuous indexes starting from zero)
+
+Array Length
+    - Array.Length;
+
+==========================================================================================================
+Creating Array
+    - Array Literal
+    - The Spread Operator on iterable Object (use case : copy array object)
+    - Array() Constructor
+    - Array.of()
+    - Array.from()
+    - Create New Array with other method (eg: slice())
+
+==========================================================================================================
+Iterating Array
+    - for/of Loop - Read Only
+    - forEach Loop
+    - for Loop
+
+==========================================================================================================
+Reading Element
+    - [inxex] Operator
+
+==========================================================================================================
+Writing Element
+    - [index] Operator
+
+==========================================================================================================
+Adding Element
+    - [index] Operator
+    - Array.push() Method - insert to last position
+    - Array.unshift() Method - insert to first position
+
+==========================================================================================================
+Deleting Element
+    - delete Operator - delete only element
+    - Array.pop() Method - delete on last position
+    - Array.shift() Method - delete on first position
+
+==========================================================================================================
