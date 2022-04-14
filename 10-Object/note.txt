@@ -17,7 +17,7 @@ Extended Object Literal Syntax (ES6)
 ==========================================================================================================
 Creating Objects
     1. Object Literal Style
-    2. Java Style with new Keyword
+    2. (Object Constructor) Java Style with new Keyword
     3. Object.create() Method
 
 ==========================================================================================================

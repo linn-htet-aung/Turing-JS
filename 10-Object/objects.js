@@ -10,7 +10,7 @@
         age: 23,
     };
 
-    // Java Style with new Keyword
+    // Object Constructor (Java Style with new Keyword)
     let date = new Date();
     console.log("date:", date);
 
