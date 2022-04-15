@@ -13,6 +13,7 @@ Mutable & Immutable
     - Primitive Types   (Immutable) -> Value Model
     - Compound Type     (Mutable)   -> Reference Model
 
+==========================================================================================================
 Type Coversion
     - Explicit Conversion -> Programmer ByForce Convert
     - Implicit Conversion -> Compliler Autocovert
@@ -67,7 +68,7 @@ Undefined
 
 ==========================================================================================================
 Object
-    - 
+    - See on Unit-10
 
 The Global Object?
     - When JS interpreter start, it creates a new global object and gives it an initial set of properties.
@@ -80,8 +81,10 @@ The Global Object?
 
 ==========================================================================================================
 Array
-
+    - See on Unit-11
 ==========================================================================================================
 Functions
+    - See on Unit-12
+==========================================================================================================
 
 

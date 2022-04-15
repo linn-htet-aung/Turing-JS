@@ -1,4 +1,8 @@
-// Var & let //
+/**
+ * ------------------------------------------------------------------------------------------
+ * 1. var & let
+ * ------------------------------------------------------------------------------------------
+ */
 var a = 10; // declare in main function scope (Global Variable)
 let b = 20; // declare in main function scope (Global Varialbe)
 

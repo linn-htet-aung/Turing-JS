@@ -42,6 +42,7 @@
     }
     console.log("Target:", target);
 }
+
 // with Object.assign() Method
 {
     let target = {

@@ -11,6 +11,9 @@ Array
 
     - Sparse Array (A sparse array is one in which elements do not have continuous indexes starting from zero)
 
+    - Array of Array (Is not continuousely allocate in memory)
+    - Multidimensional Array (Continuousely allocate in memory)
+
 Array Length
     - Array.Length;
 
@@ -48,5 +51,19 @@ Deleting Element
     - delete Operator - delete only element
     - Array.pop() Method - delete on last position
     - Array.shift() Method - delete on first position
+
+==========================================================================================================
+Array Method
+    - Array Iterator Method
+        1. forEach() Method
+        2. map() Method
+        3. filter() Method (pass predicate function)
+        4. findIndex() Method
+        5. find() Method
+        6. every() Method (all of predicate function true)
+        7. some() Method (some of predicate function ture)
+        8. reduce() Method
+        9. reduceRight() Method
+    - 
 
 ==========================================================================================================

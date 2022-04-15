@@ -1,4 +1,4 @@
-JavaScript Application Usage Area?
+Application Usage Area?
     - Client (Web Browser)
     - Server (Node)
     - Hybrid Mobile App (React Native)
@@ -6,10 +6,17 @@ JavaScript Application Usage Area?
 
 ==========================================================================================================
 JavaScript?
+    - High Level Interpreted Language
     - Dynamic Type (Mostly can assign any datatype to variable)
-    - Scripting Language (Need Host to execute)
+    - Weak Type (Can manipulate on different datatype)
+    - Both OO & Functional Programming Paradigm
+
+    Name & Version
+    - JavaScript -> ECMAScript (2010/ES5, 2015/ES6) -> ES2016 -> ES2017 -> ES2018 -> ES2019 -> ES2020
 
 ==========================================================================================================
 TypeScript?
     - Super sup of JavaScript
     - npm install tyepscript --save-dev
+
+==========================================================================================================

@@ -26,6 +26,7 @@ Compound & Empty Statement
     3. for loop (depend on counter)
     4. for/of loop (usually work with iterable value)
     5. for/in loop
+
 ==========================================================================================================
 4. Jump Statement
     1. label statement (Any statement may be labeled by preceding it with an identifier and a colon:)
@@ -40,4 +41,6 @@ Compound & Empty Statement
     1. with Statement (shouldn't use)
     2. debugger Statement (shouldn't use)
     3. "use strict" Statement (strict mode eg: can't use variable without declare)
+
+==========================================================================================================
     
