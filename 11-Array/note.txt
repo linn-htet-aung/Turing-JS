@@ -1,6 +1,6 @@
 Array
     - An array is a ordered collection of values.
-    - Each value is called and element.
+    - Each value is called an element.
     - Element has numeric position in the array, known as index.
     - An element my object or other array
     - JS array are zero based, dynamic, grow or shrink as needed, no need to declare a fixed size
