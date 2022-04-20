@@ -120,6 +120,7 @@
  * Array Method
  * ------------------------------------------------------------------------------------------
  */
+// Iterator Method
 {
     // forEach() - use case for some action
     let arr = [10, 20, 30, 40, 50];
@@ -268,6 +269,9 @@
     });
     console.log("Array Method - reduceRight():", arr2);
 }
+
+
+// Flattening Method
 {
     // flat() - multidimensional array to one dimensional array
     let arr1 = [1, 2, [3, 4, [5, 6]]];
@@ -280,4 +284,122 @@
         return phrase.split(" ");
     });
     console.log("Array Method - flatMap():", words);
+}
+
+
+// Concatination Method
+{
+    // concat() - Join Array
+    let arr1 = [1, 2, 3, 4, 5];
+    let arr2 = arr1.concat([6, 7, 8]);
+    console.log("Array Method - concat():", arr2);
+}
+
+
+// Sub Arrays Method
+{
+    // slice() - slice array
+    let arr1 = [1, 2, 3, 4, 5];
+    let arr2 = arr1.slice(0, 4);
+    console.log("Array Method - slice():", arr2);
+}
+{
+    // splice() - both delete and insert with mutable operation
+    let arr = [1, 2, 3, 4, 5, 6, 7];
+    console.log("Array Method - splice(): ORG ARRAY:", arr);
+    arr.splice(1, 2, 100, 200);
+    console.log("Array Method - splice():", arr);
+}
+{
+    // fill() - sets the element of an array
+    let arr1 = [1, 2, 3, 4, 5, 6, 7];
+    arr1.fill(0);
+    console.log("Array Method - fill(0):", arr1);
+
+    let arr2 = [1, 2, 3, 4, 5, 6, 7];
+    arr2.fill(0, 2);
+    console.log("Array Method - fill(0, 2):", arr2);
+
+    let arr3 = [1, 2, 3, 4, 5, 6];
+    arr3.fill(0, 2, 5);
+    console.log("Array Method - fill(0, 2, 4):", arr3);
+}
+{
+    // copyWithin() - copies a slice of an array to new position within the array
+    let arr1 = [1, 2, 3, 4, 5];
+    arr1.copyWithin(1);
+    console.log("Array Method - copyWithin(1):", arr1);
+
+    let arr2 = [1, 2, 3, 4, 5];
+    arr2.copyWithin(2, 3, 5);
+    console.log("Array Method - copyWithin(1):", arr2);
+}
+
+// Searching & Sorting Method
+{
+    // indexOf() - searching index from left
+    let arr1 = [1, 2, 3, 4, 5, 6, 7, 8];
+    console.log("Array Method - indexOf():", arr1.indexOf(5));
+    console.log("Array Method - indexOf():", arr1.indexOf(100)); // return -1 if not found
+}
+{
+    // lastIndexOf() - searching index from right
+    let arr1 = [1, 2, 2, 4, 1, 5, 6];
+    console.log("Array Method - lastIndexOf():", arr1.lastIndexOf(1));
+}
+{
+    // includes() - elements includes? return true/false
+    let arr1 = [1, 2, 3, 4, 5, 6, 7];
+    console.log("Array Method - includes(4):", arr1.includes(4));
+    console.log("Array Method - includes(48):", arr1.includes(48));
+}
+{
+    // sort() - sort the array by lexiographic order
+    let arr1 = [10, 2, 100, 3, 500];
+    arr1.sort();
+    console.log("Array Method - sort():", arr1.sort());
+
+    let arr2 = [23, 44, 1, 423, 677, 234];
+    arr2.sort(function(a, b){
+        return a - b; // comparison function with ascending order
+    });
+    console.log("Array Method - sort():", arr2);
+
+    let arr3 = [23, 44, 1, 423, 677, 234];
+    arr3.sort((a, b) => {
+        return b - a; // comparison function with descnding order
+    });
+    console.log("Array Method - sort():", arr3);
+
+    let users = [
+        {
+            name: "user one",
+            age:23,
+        },
+        {
+            name: "user two",
+            age:24,
+        },
+        {
+            name: "user three",
+            age:25,
+        },
+    ];
+    users.sort((userA, userB) => {
+        return userB.age - userA.age;
+    });
+    console.log("Array Method - sort():", users);
+}
+{
+    // reverse() - sort the array by lexiographic with reverse order
+    let arr1 = [1, 2, 3];
+    console.log("Array Method - reverse():", arr1.reverse());
+}
+
+// Array to String conversion Method
+{
+    // join() Method
+    let arr1 = [1, 3, 4];
+    console.log("Array Method - join():", arr1.join(","));
+    console.log("Array Method - join():", arr1 + "");
 }
