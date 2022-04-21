@@ -1,0 +1,54 @@
+Function
+    Why?
+    - Code Reusable
+    - Reducing program size
+    - Reducing program complexity
+    
+    How?
+    - Function should follow single responsibility
+    - Function should be readable from top to bottom
+    - Keep function small
+    - Less number of Arguments, if not, pass with Object
+    - Constant level of abstration 
+    - Follow DRY Principle
+    - Avoid causing side effects
+    - Error Handling
+    - Avoid nested control structure
+    - Avoid switch statement, should use polymorphism
+    - Avoid boolean variable
+    - Avoid output arguments
+    - A function can be command or query, but not both
+    - A boolen function must answer yes or no
+
+==========================================================================================================
+First Class Function
+    - can assign to variable
+    - can pass as parameter
+    - can return from function
+
+==========================================================================================================
+Defining Function
+    - Function Declartion
+    - Function Expression
+    - Arrow Function
+    - Function Constructor
+==========================================================================================================
+Invoking Function
+
+==========================================================================================================
+Function Arguments & Parameters
+
+==========================================================================================================
+Function As values
+
+==========================================================================================================
+Function As Namespaces
+
+==========================================================================================================
+Closures
+
+==========================================================================================================
+Function Properties, Method & Constructor
+
+==========================================================================================================
+
