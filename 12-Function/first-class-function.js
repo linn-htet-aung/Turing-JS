@@ -5,7 +5,7 @@ function sayHello() {
 const hello = sayHello;
 hello();
 
-// Rule:2 - Function pass as argument
+// Rule:2 - Function can pass as argument
 function execFunc(func) {
     func();
 }

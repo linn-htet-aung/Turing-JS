@@ -32,19 +32,29 @@ Defining Function
     - Function Expression
     - Arrow Function
     - Function Constructor
+
 ==========================================================================================================
 Invoking Function
+    - Invoke as Function
+    - Invoke as Method
+    - Invoke as Constructor 
+    - Invoke as Implicit    
+    - call() - Discuss later
+    - apply() - Discuss later
 
 ==========================================================================================================
 Function Arguments & Parameters
-
-==========================================================================================================
-Function As values
+    - Arguments & Parameters
+    - Default Parameters
+    - Argument Objects
+    - Rest Parameters
+    - The Spread Operator for Function Call
+    - Destructuring function arguments into Parameters
 
 ==========================================================================================================
 Function As Namespaces
 
-==========================================================================================================
+========================================================== ================================================
 Closures
 
 ==========================================================================================================
