@@ -204,3 +204,37 @@
     console.log(obj.display()); 
 }
 
+/**
+ * ------------------------------------------------------------------------------------------
+ * 6. Function Properties, Method & Constructor
+ * ------------------------------------------------------------------------------------------
+ */
+{
+    // call() Method
+    let obj = {
+        name: "Alice",
+        age: 37,
+
+        display: function(msg) {
+            console.log(msg);
+            console.log("Name:", this.name, " & Age:", this.age);
+        },
+    }
+    obj.display("hello");
+    let d = obj.display; // Problem? method only assign to var d
+
+    d("Good Morning"); // print name and age : undefined
+    d.call(obj, "This is Object One."); // call() Method
+
+    let obj2 = {
+        name: "Eric",
+        age: 27,
+    }
+    d.call(obj2, "This is Object Two.") // Borrowing, Monkey Patching, Mixim
+}
+{
+    // apply() Method
+    let arr = [10, 20, -10, 8, 3];
+    console.log(Math.min.apply(Math, arr)); // apply method
+}
+

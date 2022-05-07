@@ -59,6 +59,14 @@ Closures
 
 ==========================================================================================================
 Function Properties, Method & Constructor
+    - The length Property
+    - The name Property
+    - The prototype Property
+
+    - call() Method
+    - apply() Method
+    - bind() Method
+    - toString() Method
 
 ==========================================================================================================
 

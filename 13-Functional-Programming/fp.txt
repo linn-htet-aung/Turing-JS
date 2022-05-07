@@ -1,0 +1,17 @@
+Computational Theory
+    1. Turing Machine
+        - Imperative Programming (C, Go)
+            - Variable (Mutable) (Side Effect)
+            - Control Structure (if, loop)
+                - How to do!
+
+
+    2. Lambda Calculas
+        - Functional Programming (FSharp, Haskell)
+            - Constant (Immutable) (No Side Effect)
+            - function
+                - What to do! (declarative)
+
+To achieve FP, function must support
+    - first class function(function can assign to varialbe)
+    
