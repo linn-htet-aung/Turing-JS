@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.25.0/ramda.min.js"></script>
+    <title>Ramda Currying</title>
+</head>
+<body>
+    <h1>Currying</h1>
+    <script>
+        const greet = (msg) => (name) => msg + name;
+        const toUpper = (str) => str.toUpperCase();
+        const appendHi = (str) => "Hi " + str;
+
+        let greetAndtoUpper = R.pipe(toUpper, greet("hello"));
+        console.log("Pipe:", greetAndtoUpper("test"));
+
+        function add(x, y) {
+            return x + y;
+        }
+
+        function curryAdd(x) {
+            return function (y) {
+                return x + y;
+            }
+        }
+
+        console.log("Add:", add(2, 3));
+        console.log("CurryAdd: ", curryAdd(2)(3));
+    </script>
+</body>
+</html>

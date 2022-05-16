@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.25.0/ramda.min.js"></script>
+    <title>Ramda Compose Pipe</title>
+</head>
+<body>
+    <h1>Compose Pipe</h1>
+    <script>
+        // compose
+        const toUpper = (str) => str.toUpperCase();
+        const appendHi = (str) => "Hi " + str;
+
+        const toUpperAndappendHi = R.compose(toUpper, appendHi);
+        console.log(toUpperAndappendHi("Ramda Lib")); // print HI RAMDA LIB (Compose)
+
+        const appendHiAndtoUpper = R.pipe(toUpper, appendHi);
+        console.log(appendHiAndtoUpper("Ramda Lib")); // print Hi RAMDA LIB (Pipe)      
+    </script>
+</body>
+</html>

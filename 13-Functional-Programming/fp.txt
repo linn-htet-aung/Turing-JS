@@ -5,13 +5,29 @@ Computational Theory
             - Control Structure (if, loop)
                 - How to do!
 
-
     2. Lambda Calculas
         - Functional Programming (FSharp, Haskell)
             - Constant (Immutable) (No Side Effect)
             - function
                 - What to do! (declarative)
+===================================================================================
+1 - Becoming Functional
+    1.1 - Can Functional Programming Help?
 
-To achieve FP, function must support
-    - first class function(function can assign to varialbe)
+    1.2 - What is functional programming?
+        1.2.1 - Functional Programming is declarative 
+        1.2.2 - Pure Function and the problem with side effect
+        1.2.3 - Referential transparency and substitutability
+        1.2.4 - Preserving Immutable Data
+
+    1.3 - Benefits of functional programming
+
+2 - Higher Order JavaScript
+    2.2 - Functional vs OOP
+
+3 - Few Data Structures, many operations
+    3.2 - Method Chaining
+    
+4 - Toward modular, reusable code
+    4.3 - Curried function evaluation
     
